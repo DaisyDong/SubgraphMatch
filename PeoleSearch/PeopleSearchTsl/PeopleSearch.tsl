@@ -1,0 +1,55 @@
+cell struct Person
+{
+	string name;
+	List<long> friends;
+}
+
+//client request
+struct NameRequest
+{
+	int hop;
+	string name;
+	List<long> neighbours;
+}
+
+//proxy send back to client
+struct Result
+{
+	List<long> matchPersons;
+}
+
+//proxy sends to slave at first, then slave send to slave
+protocol Search
+{
+	Type:Asyn;
+	Request:NameRequest;
+	Response:void;
+}
+
+//slave sends proxy partial results
+protocol Report
+{
+	Type:Asyn;
+	Request:Result;
+	Response:void;
+}
+
+//client launch query to the proxy
+protocol Query
+{
+	Type:Syn;
+	Request:NameRequest;
+	Response:Result;
+}
+
+
+proxy MyProxy
+{
+	protocol Query;
+	protocol Report;
+}
+
+slave MySlave
+{
+	protocol Search;
+}

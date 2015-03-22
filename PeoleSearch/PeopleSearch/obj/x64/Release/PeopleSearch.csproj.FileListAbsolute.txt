@@ -1,0 +1,12 @@
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\bin\x64\Release\PeopleSearch.exe.config
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\bin\x64\Release\firstname5494.txt
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\bin\x64\Release\surname16000.txt
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\bin\x64\Release\PeopleSearch.exe
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\bin\x64\Release\PeopleSearch.pdb
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\bin\x64\Release\Trinity.Core.dll
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\bin\x64\Release\Trinity.Extension.dll
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\bin\x64\Release\Trinity.Extension.pdb
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\bin\x64\Release\Trinity.Core.pdb
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\obj\x64\Release\PeopleSearch.csprojResolveAssemblyReference.cache
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\obj\x64\Release\PeopleSearch.exe
+I:\Trinity\Samples\Samples\PeoleSearch\PeopleSearch\obj\x64\Release\PeopleSearch.pdb
