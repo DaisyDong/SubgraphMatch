@@ -1,0 +1,13 @@
+edit_config
+start SSSP.exe -s
+SSSP.exe -g
+SSSP.exe -g 10000
+SSSP.exe -c 1
+SSSP.exe -q 123
+SSSP.exe -g 10000
+SSSP.exe -c 1
+SSSP.exe -q 123
+SSSP.exe -g 100000
+SSSP.exe -c 1
+SSSP.exe -q 123
+exit
