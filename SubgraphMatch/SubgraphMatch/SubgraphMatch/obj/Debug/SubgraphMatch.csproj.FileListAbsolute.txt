@@ -1,0 +1,2 @@
+E:\trinity\SubgraphMatch\SubgraphMatch\SubgraphMatch\bin\Debug\SubgraphMatch.exe.config
+E:\trinity\SubgraphMatch\SubgraphMatch\SubgraphMatch\obj\Debug\SubgraphMatch.csprojResolveAssemblyReference.cache

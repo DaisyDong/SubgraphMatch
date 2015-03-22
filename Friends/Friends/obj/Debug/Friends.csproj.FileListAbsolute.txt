@@ -1,0 +1,9 @@
+E:\trinity\Friends\Friends\bin\Debug\Friends.exe.config
+E:\trinity\Friends\Friends\obj\Debug\Friends.csprojResolveAssemblyReference.cache
+E:\trinity\Friends\Friends\bin\Debug\Friends.exe
+E:\trinity\Friends\Friends\bin\Debug\Friends.pdb
+E:\trinity\Friends\Friends\bin\Debug\Trinity.Core.dll
+E:\trinity\Friends\Friends\bin\Debug\Trinity.Extension.7.dll
+E:\trinity\Friends\Friends\bin\Debug\Trinity.Extension.7.pdb
+E:\trinity\Friends\Friends\obj\Debug\Friends.exe
+E:\trinity\Friends\Friends\obj\Debug\Friends.pdb

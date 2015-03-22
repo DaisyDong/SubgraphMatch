@@ -1,0 +1,68 @@
+cell struct Node
+{
+	string lable;
+	long id;
+}
+
+//client request
+struct QueryRequest
+{  
+	//要求进行匹配的模式
+	long id;
+	string lable;
+}
+//具体保存每个STwig中的节点信息：根节点和多个儿子节点
+struct STnode	
+{ 
+	string father;
+	List<string> child;
+}
+//保存每个STwig的id
+struct node
+{
+	long id;
+	string lable;
+	STnode detail;
+}
+
+//proxy send back to client
+struct Result
+{ 
+	List<node> STwig;
+}
+
+//proxy sends to slave at first, then slave send to slave
+protocol Search
+{
+	Type:Asyn;
+	Request:QueryRequest;
+	Response:void;
+}
+
+//slave sends proxy partial results
+protocol Report
+{
+	Type:Asyn;
+	Request:Result;
+	Response:void;
+}
+
+//client launch query to the proxy
+protocol Query
+{
+	Type:Syn;
+	Request:QueryRequest;
+	Response:Result;
+}
+
+
+proxy MyProxy
+{
+	protocol Query;
+	protocol Report;
+}
+
+slave MySlave
+{
+	protocol Search;
+}

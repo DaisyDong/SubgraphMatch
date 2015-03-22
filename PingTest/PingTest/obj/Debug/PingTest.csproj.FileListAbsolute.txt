@@ -1,0 +1,9 @@
+E:\trinity\PingTest\PingTest\bin\Debug\PingTest.exe.config
+E:\trinity\PingTest\PingTest\obj\Debug\PingTest.csprojResolveAssemblyReference.cache
+E:\trinity\PingTest\PingTest\bin\Debug\PingTest.exe
+E:\trinity\PingTest\PingTest\bin\Debug\PingTest.pdb
+E:\trinity\PingTest\PingTest\bin\Debug\Trinity.Core.dll
+E:\trinity\PingTest\PingTest\bin\Debug\Trinity.Extension.M.dll
+E:\trinity\PingTest\PingTest\bin\Debug\Trinity.Extension.M.pdb
+E:\trinity\PingTest\PingTest\obj\Debug\PingTest.exe
+E:\trinity\PingTest\PingTest\obj\Debug\PingTest.pdb

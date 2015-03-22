@@ -1,0 +1,15 @@
+struct MyMessage
+{
+	int sn;
+}
+protocol SynPing
+{
+	Type:Syn;
+	Request:MyMessage;
+	Response:void;
+}
+slave MySlave
+{
+	protocol SynPing;
+}
+
