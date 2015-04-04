@@ -1,0 +1,594 @@
+edit_config
+start GraphTest.exe -s
+GraphTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+eidt_config;
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+edit_config
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+edit_config
+start FacebookTest.exe -s
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+start FacebookTest.exe -g
+start FacebookTest.exe -c
+FacebookTest.exe -c
+start FacebookTest.exe -s
+FacebookTest.exe -g
+start FacebookTest.exe -s
+start FacebookTest.exe -g
+start FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+edit_config
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+edit_config
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+edit_config
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start SlaveAndProxy.exe -s
+SlaveAndProxy.exe -g
+SlaveAndProxy.exe -c
+start FacebookTest.exe -s
+ -p
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c

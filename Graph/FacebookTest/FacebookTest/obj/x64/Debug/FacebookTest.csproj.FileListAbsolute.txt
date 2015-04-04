@@ -1,0 +1,16 @@
+E:\VS2013project\FacebookTest\FacebookTest\bin\x64\Debug\FacebookTest.exe.config
+E:\VS2013project\FacebookTest\FacebookTest\bin\x64\Debug\FacebookTest.exe
+E:\VS2013project\FacebookTest\FacebookTest\bin\x64\Debug\FacebookTest.pdb
+E:\VS2013project\FacebookTest\FacebookTest\bin\x64\Debug\Trinity.Core.dll
+E:\VS2013project\FacebookTest\FacebookTest\bin\x64\Debug\Trinity.Extension.Z.dll
+E:\VS2013project\FacebookTest\FacebookTest\bin\x64\Debug\Trinity.Extension.Z.pdb
+E:\VS2013project\FacebookTest\FacebookTest\obj\x64\Debug\FacebookTest.exe
+E:\VS2013project\FacebookTest\FacebookTest\obj\x64\Debug\FacebookTest.pdb
+E:\VS2013project\FacebookTest\FacebookTest\obj\x64\Debug\FacebookTest.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Graph\Graph\FacebookTest\FacebookTest\bin\x64\Debug\FacebookTest.exe.config
+C:\Users\User\Desktop\Graph\Graph\FacebookTest\FacebookTest\obj\x64\Debug\FacebookTest.exe
+C:\Users\User\Desktop\Graph\Graph\FacebookTest\FacebookTest\obj\x64\Debug\FacebookTest.pdb
+E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\FacebookTest.exe.config
+E:\trinity\Graph\FacebookTest\FacebookTest\obj\x64\Debug\FacebookTest.exe
+E:\trinity\Graph\FacebookTest\FacebookTest\obj\x64\Debug\FacebookTest.pdb
+E:\trinity\Graph\FacebookTest\FacebookTest\obj\x64\Debug\FacebookTest.csprojResolveAssemblyReference.cache

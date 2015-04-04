@@ -1,0 +1,5 @@
+﻿Trinity Assembly Path: E:\VS2013project\FacebookTest\FacebookTest\bin\x64\Debug\
+
+[2015/3/25 16:43:48] [ INFO    ] My IPEndPoint: 172.17.232.115:7304
+[2015/3/25 16:43:48] [ INFO    ] Proxy 0 is successfully started.
+[2015/3/25 16:44:14] [ ERROR   ] Remote peer 172.17.232.115:5304 is down during receiving data.

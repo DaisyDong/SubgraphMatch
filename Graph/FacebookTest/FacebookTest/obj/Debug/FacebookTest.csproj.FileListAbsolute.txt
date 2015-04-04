@@ -1,0 +1,9 @@
+E:\VS2013project\FacebookTest\FacebookTest\bin\Debug\FacebookTest.exe.config
+E:\VS2013project\FacebookTest\FacebookTest\bin\Debug\FacebookTest.exe
+E:\VS2013project\FacebookTest\FacebookTest\bin\Debug\FacebookTest.pdb
+E:\VS2013project\FacebookTest\FacebookTest\bin\Debug\Trinity.Core.dll
+E:\VS2013project\FacebookTest\FacebookTest\bin\Debug\Trinity.Extension.Z.dll
+E:\VS2013project\FacebookTest\FacebookTest\bin\Debug\Trinity.Extension.Z.pdb
+E:\VS2013project\FacebookTest\FacebookTest\obj\Debug\FacebookTest.csprojResolveAssemblyReference.cache
+E:\VS2013project\FacebookTest\FacebookTest\obj\Debug\FacebookTest.exe
+E:\VS2013project\FacebookTest\FacebookTest\obj\Debug\FacebookTest.pdb

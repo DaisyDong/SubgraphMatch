@@ -1,0 +1,7 @@
+﻿Trinity Assembly Path: E:\VS2013project\FacebookTest\FacebookTest\bin\x64\Debug\
+
+[2015/3/25 13:46:02] [ INFO    ] My IPEndPoint: 172.17.232.170:5304
+[2015/3/25 13:46:02] [ INFO    ] Slave ID: 0/3
+
+[2015/3/25 13:46:02] [ INFO    ] Slave 0 is successfully started.
+[2015/3/25 13:47:08] [ ERROR   ] Remote peer 172.17.232.170:7304 is down during receiving data.

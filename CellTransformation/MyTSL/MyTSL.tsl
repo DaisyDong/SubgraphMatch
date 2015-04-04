@@ -1,0 +1,10 @@
+cell struct MyCellA
+{
+	int A;
+}
+
+cell struct MyCellB
+{
+	int A;
+	string Name;
+}

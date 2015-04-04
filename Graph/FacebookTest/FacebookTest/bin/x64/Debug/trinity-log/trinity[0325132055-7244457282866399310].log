@@ -1,0 +1,27 @@
+﻿Trinity Assembly Path: E:\VS2013project\FacebookTest\FacebookTest\bin\x64\Debug\
+
+[2015/3/25 13:20:55] [ INFO    ] My IPEndPoint: 172.17.232.170:5304
+[2015/3/25 13:20:56] [ INFO    ] Slave ID: 0/3
+
+[2015/3/25 13:20:56] [ INFO    ] Slave 0 is successfully started.
+[2015/3/25 13:21:30] [ ERROR   ] Exceptions are caught in the handler of synchronous message (with RSP request), message sn: 0
+[2015/3/25 13:21:30] [ ERROR   ] 集合已修改；可能无法执行枚举操作。
+[2015/3/25 13:21:30] [ ERROR   ]    在 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   在 System.Collections.Generic.List`1.ForEach(Action`1 action)
+   在 FacebookTest.GraphSlave.FindSameLabel(Int64 num) 位置 e:\VS2013project\FacebookTest\FacebookTest\GraphSlave.cs:行号 191
+   在 FacebookTest.GraphSlave.QueryHandler(NodeSetReader nsr, ResultWriter result) 位置 e:\VS2013project\FacebookTest\FacebookTest\GraphSlave.cs:行号 43
+   在 Trinity.GraphSlaveBase._QueryHandler(SynReqRspArgs args) 位置 e:\VS2013project\TrinityFacebook\TrinityFacebook\bin\Debug\GeneratedCode\Protocol.cs:行号 75
+   在 Trinity.Network.Messaging.SynReqRspArgs.MessageProcess()
+[2015/3/25 13:21:30] [ ERROR   ] Message buffer length: 38
+[2015/3/25 13:21:30] [ ERROR   ] Hexadecimal dump of the message buffer (first 128 bytes):
+[2015/3/25 13:21:30] [ INFO    ] Error
+[2015/3/25 13:21:30] [ INFO    ] 
+
+Address   00 01 02 03 04 05 06 07   08 09 0a 0b 0c 0d 0e 0f
+
+00000000  01 01 8a 13 00 00 00 00   00 00 00 00 00 00 00 00
+00000010  00 00 10 00 00 00 89 13   00 00 00 00 00 00 8b 13
+00000020  00 00 00 00 00 00 
+
+
+[2015/3/25 13:21:30] [ INFO    ] Error

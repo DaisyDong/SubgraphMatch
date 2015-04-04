@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Trinity>
+  <section name="Application">
+    <entry name="ConfigOutputOn">true</entry>
+    <entry name="CurrentRunningMode">Client</entry>
+    <entry name="ExperimentalFeatureOn">false</entry>
+  </section>
+  <section name="Network">
+    <entry name="ClientBufferSize">1048576</entry>
+    <entry name="ClientMaxBufferSize">134217728</entry>
+    <entry name="ServerSocketBufferSize">8192</entry>
+    <entry name="ClientSocketBufferSize">8192</entry>
+    <entry name="ServerMaxConn">512</entry>
+    <entry name="ServerMaxAcceptOps">512</entry>
+    <entry name="PreferedNetworkMask"></entry>
+  </section>
+  <section name="Slaves">
+    <entry name="Slave" SlaveId="0" WorkingDirectory="E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\" LoggingLevel="Info">192.168.1.101:5304</entry>
+	<entry name="Slave" SlaveId="1" WorkingDirectory="E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\" LoggingLevel="Info">192.168.1.101:5304</entry>
+	<entry name="Slave" SlaveId="2" WorkingDirectory="E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\" LoggingLevel="Info">192.168.1.101:5304</entry>
+	 
+  </section>
+  <section name="Proxies">
+    <entry name="Proxy" WorkingDirectory="E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\" LoggingLevel="Info">192.168.1.101:7304</entry>
+  </section>
+  <section name="DNS" />
+  <section name="rDNS" />
+  <section name="Storage">
+    <entry name="MemoryPoolSize">268435456</entry>
+    <entry name="LargeObjectThreshold">10485760</entry>
+    <entry name="MaxLargeObjectCount">128</entry>
+    <entry name="StorageRoot">E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\storage\</entry>
+  </section>
+  <section name="Internal">
+    <entry name="CreateConnectionWhenUnavailable">false</entry>
+    <entry name="GraphBufferSize">134217728</entry>
+    <entry name="XHashSetGroupSize">4</entry>
+  </section>
+  <section name="Logging">
+    <entry name="LoggingLevel">Info</entry>
+  </section>
+</Trinity>

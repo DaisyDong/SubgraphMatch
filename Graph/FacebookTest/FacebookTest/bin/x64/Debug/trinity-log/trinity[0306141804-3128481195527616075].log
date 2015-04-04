@@ -1,0 +1,47 @@
+﻿Trinity Assembly Path: E:\VS2013project\FacebookTest\FacebookTest\bin\x64\Debug\
+
+[2015/3/6 14:18:04] [ INFO    ] My IPEndPoint: 172.17.25.30:5304
+[2015/3/6 14:18:04] [ INFO    ] Slave ID: 0/1
+
+[2015/3/6 14:18:04] [ INFO    ] Slave 0 is successfully started.
+[2015/3/6 14:18:11] [ ERROR   ] Exceptions are caught in the handler of synchronous message (with RSP request), message sn: 0
+[2015/3/6 14:18:11] [ ERROR   ] Cell with ID=3723 not found!
+[2015/3/6 14:18:11] [ ERROR   ]    在 Trinity.Node_Accessor.New(Int64 CellID, ActionOnCellNotFound action) 位置 e:\VS2013project\TrinityFacebook\TrinityFacebook\bin\Debug\GeneratedCode\Node.cs:行号 233
+   在 Trinity.StorageExtension_Node.UseNode(LocalMemoryStorage storage, Int64 CellID) 位置 e:\VS2013project\TrinityFacebook\TrinityFacebook\bin\Debug\GeneratedCode\Storage.cs:行号 153
+   在 FacebookTest.GraphSlave.GetLabelHandler(NodeIndexReader nodeindex, NodeLabelWriter l) 位置 e:\VS2013project\FacebookTest\FacebookTest\Program.cs:行号 218
+   在 Trinity.GraphSlaveBase._GetLabelHandler(SynReqRspArgs args) 位置 e:\VS2013project\TrinityFacebook\TrinityFacebook\bin\Debug\GeneratedCode\Protocol.cs:行号 52
+   在 Trinity.Network.Messaging.SynReqRspArgs.MessageProcess()
+[2015/3/6 14:18:11] [ ERROR   ] Message buffer length: 14
+[2015/3/6 14:18:11] [ ERROR   ] Hexadecimal dump of the message buffer (first 128 bytes):
+[2015/3/6 14:18:11] [ INFO    ] Error
+[2015/3/6 14:18:11] [ INFO    ] 
+
+Address   00 01 02 03 04 05 06 07   08 09 0a 0b 0c 0d 0e 0f
+
+00000000  0a 00 00 00 01 00 8b 0e   00 00 00 00 00 00 
+
+
+[2015/3/6 14:18:11] [ INFO    ] Error
+[2015/3/6 14:18:11] [ ERROR   ] Exceptions are caught in the handler of synchronous message (with RSP request), message sn: 0
+[2015/3/6 14:18:11] [ ERROR   ] 未将对象引用设置到对象的实例。
+[2015/3/6 14:18:11] [ ERROR   ]    在 Trinity.MessagePassingExtension.GetLabelToGraphSlave(MemoryCloud storage, Int32 slaveId, NodeIndexWriter msg) 位置 e:\VS2013project\TrinityFacebook\TrinityFacebook\bin\Debug\GeneratedCode\Protocol.cs:行号 187
+   在 FacebookTest.GraphSlave.<>c__DisplayClass5.<>c__DisplayClass8.<QueryHandler>b__1(Int64 n) 位置 e:\VS2013project\FacebookTest\FacebookTest\Program.cs:行号 50
+   在 Trinity.TSL.Lib.longList.ForEach(Action`1 action)
+   在 FacebookTest.GraphSlave.<>c__DisplayClass5.<QueryHandler>b__0(Int64 qn) 位置 e:\VS2013project\FacebookTest\FacebookTest\Program.cs:行号 48
+   在 Trinity.TSL.Lib.longList.ForEach(Action`1 action)
+   在 FacebookTest.GraphSlave.QueryHandler(NodeSetReader nsr, ResultWriter result) 位置 e:\VS2013project\FacebookTest\FacebookTest\Program.cs:行号 42
+   在 Trinity.GraphSlaveBase._QueryHandler(SynReqRspArgs args) 位置 e:\VS2013project\TrinityFacebook\TrinityFacebook\bin\Debug\GeneratedCode\Protocol.cs:行号 73
+   在 Trinity.Network.Messaging.SynReqRspArgs.MessageProcess()
+[2015/3/6 14:18:11] [ ERROR   ] Message buffer length: 38
+[2015/3/6 14:18:11] [ ERROR   ] Hexadecimal dump of the message buffer (first 128 bytes):
+[2015/3/6 14:18:11] [ INFO    ] Error
+[2015/3/6 14:18:11] [ INFO    ] 
+
+Address   00 01 02 03 04 05 06 07   08 09 0a 0b 0c 0d 0e 0f
+
+00000000  01 01 8a 13 00 00 00 00   00 00 00 00 00 00 00 00
+00000010  00 00 10 00 00 00 89 13   00 00 00 00 00 00 8b 13
+00000020  00 00 00 00 00 00 
+
+
+[2015/3/6 14:18:11] [ INFO    ] Error

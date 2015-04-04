@@ -1,0 +1,21 @@
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+
+
+
+
+/*
+                 * a1 1
+                 * a2 2
+                 * a3 3
+                 * b1 4
+                 * b2 5
+                 * c1 6
+                 * c2 7
+                 * d1 8
+                 * d2 9
+                 * e1 10
+                 * f1 11
+                 */

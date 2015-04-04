@@ -1,0 +1,54 @@
+Struct Value
+{
+	//Value could either be a double, string or List<int>, we'll use optional to indicate whether a field exists.
+	optional double double_value;
+	optional string string_value;
+	optional List<int> int_list_value;
+}
+
+Struct Element
+{
+	string key;
+	Value value;
+}
+
+Cell Struct Bucket
+{
+	List<Element> elements;	
+}
+
+Struct StringRequest
+{
+	string key;
+}
+
+Struct ValueResponse
+{
+	bool isFound;
+	Value value;
+}
+
+Struct ElementRequest
+{
+	Element element;
+}
+
+protocol GetValue
+{
+	Type: Syn;
+	Request: StringRequest;
+	Response: ValueResponse;
+}
+
+protocol SetValue
+{
+	Type:Syn;
+	Request: ElementRequest;
+	Response:void;
+}
+
+slave MySlave
+{
+	protocol SetValue;
+	protocol GetValue;
+}
