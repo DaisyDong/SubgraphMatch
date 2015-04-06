@@ -1,0 +1,120 @@
+Cell Struct Node
+{
+	long id;
+	string name;
+	string label;
+	int flag;
+	List<long> neighbors;
+}
+struct Result
+{
+	List<NodeSet> samelabel;
+	List<NodeSet> set;
+}
+struct NodeSet
+{
+	long headid;
+	string headname;
+	string headlabel;
+	List<long> set;
+}
+struct SameLabel
+{
+	List<NodeSet> set;
+}
+struct QuerySet
+{
+	NodeSet set;
+}
+struct NodeIndex
+{
+	long num;
+}
+struct NodeLabel
+{
+	string label;
+	string name;
+}
+struct BeginSignal
+{
+	long signal;
+}
+struct StartSignal
+{
+	long signal;
+}
+struct SlaveID
+{
+	int id;
+}
+protocol BeginProxy
+{
+	Type: Asyn;
+	Request:BeginSignal;
+	Response:void;
+} 
+protocol UpdateSameLabelSet
+{
+	Type: Asyn;
+	Request:SameLabel;
+	Response:void;
+}
+protocol GetSameLabelSet
+{
+	Type: Syn;
+	Request:SameLabel;
+	Response:BeginSignal;
+}
+protocol TellSlaveID
+{
+	Type: Syn;
+	Request:SlaveID;
+	Response:BeginSignal;
+}
+protocol StartToRead
+{
+	Type: Asyn;
+	Request:StartSignal;
+	Response:void;
+}
+
+protocol Begin
+{
+	Type: Asyn;
+	Request:BeginSignal;
+	Response:void;
+}
+protocol GetLabel
+{
+	Type:Syn;
+	Request: NodeIndex;
+	Response: NodeLabel;
+}
+protocol Query
+{
+	Type:Syn;
+	Request: NodeSet;
+	Response: Result;
+}
+protocol ShowNodeSet
+{
+	Type: Asyn;
+	Request: NodeIndex;
+	Response: void;
+}
+slave GraphSlave
+{
+	protocol ShowNodeSet;
+	protocol GetLabel;
+	protocol Begin;
+	protocol Query;
+	protocol TellSlaveID;
+	protocol GetSameLabelSet;
+}
+
+proxy GraphProxy
+{
+	//protocol Query;
+	protocol UpdateSameLabelSet;
+	protocol BeginProxy;
+}

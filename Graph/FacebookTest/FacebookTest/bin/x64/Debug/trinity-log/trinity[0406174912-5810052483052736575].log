@@ -1,0 +1,20 @@
+﻿Trinity Assembly Path: E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\
+
+[2015/4/6 17:49:12] [ INFO    ] My IPEndPoint: 192.168.1.101:7304
+[2015/4/6 17:49:12] [ INFO    ] Proxy 0 is successfully started.
+[2015/4/6 17:49:24] [ ERROR   ] Exceptions are caught in the handler of asynchronous message, message sn: 0
+[2015/4/6 17:49:24] [ ERROR   ] 未将对象引用设置到对象的实例。
+[2015/4/6 17:49:25] [ ERROR   ]    在 FacebookTest.GraphProxy.BeginProxyHandler(BeginSignalReader bsr) 位置 e:\trinity\Graph\FacebookTest\FacebookTest\GraphProxy.cs:行号 52
+   在 Trinity.GraphProxyBase._BeginProxyHandler(AsynReqArgs args) 位置 e:\VS2013project\TrinityFacebook\TrinityFacebook\bin\Debug\GeneratedCode\Protocol.cs:行号 156
+   在 Trinity.Network.Messaging.AsynReqArgs.MessageProcessThread(Object msg_obj)
+[2015/4/6 17:49:25] [ ERROR   ] Message buffer length: 10
+[2015/4/6 17:49:25] [ ERROR   ] Hexadecimal dump of the message buffer (first 128 bytes):
+[2015/4/6 17:49:25] [ INFO    ] Error
+[2015/4/6 17:49:25] [ INFO    ] 
+
+Address   00 01 02 03 04 05 06 07   08 09 0a 0b 0c 0d 0e 0f
+
+00000000  02 01 01 00 00 00 00 00   00 00 
+
+
+[2015/4/6 17:49:25] [ INFO    ] Error

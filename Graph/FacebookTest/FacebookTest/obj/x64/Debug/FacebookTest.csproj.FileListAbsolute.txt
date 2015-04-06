@@ -14,3 +14,7 @@ E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\FacebookTest.exe.config
 E:\trinity\Graph\FacebookTest\FacebookTest\obj\x64\Debug\FacebookTest.exe
 E:\trinity\Graph\FacebookTest\FacebookTest\obj\x64\Debug\FacebookTest.pdb
 E:\trinity\Graph\FacebookTest\FacebookTest\obj\x64\Debug\FacebookTest.csprojResolveAssemblyReference.cache
+E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\FacebookTest.exe
+E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\FacebookTest.pdb
+E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\Trinity.Extension.Z.dll
+E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\Trinity.Extension.Z.pdb
