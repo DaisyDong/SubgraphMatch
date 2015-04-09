@@ -652,3 +652,136 @@ start FacebookTest.exe -s
 start FacebookTest.exe -p
 FacebookTest.exe -g
 FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+        Console.WriteLine("findResult:{0}ge STwig,{1} ge Slave",n,m);
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+                    leafSetS = temp;    //
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+                      rr[q][i].set.ForEach((tmp1) =>
+                    {
+                       Console.WriteLine(tmp1.headid);
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c
+start FacebookTest.exe -s
+start FacebookTest.exe -p
+FacebookTest.exe -g
+FacebookTest.exe -c

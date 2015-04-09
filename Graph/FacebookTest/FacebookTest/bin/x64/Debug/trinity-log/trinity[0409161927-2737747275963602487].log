@@ -1,0 +1,33 @@
+﻿Trinity Assembly Path: E:\trinity\Graph\FacebookTest\FacebookTest\bin\x64\Debug\
+
+[2015/4/9 16:19:27] [ INFO    ] My IPEndPoint: 192.168.1.112:7304
+[2015/4/9 16:19:27] [ INFO    ] Proxy 0 is successfully started.
+[2015/4/9 16:20:01] [ ERROR   ] Exceptions are caught in the handler of asynchronous message, message sn: 0
+[2015/4/9 16:20:01] [ ERROR   ] 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+[2015/4/9 16:20:01] [ ERROR   ]    在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.IO.TextWriter.Write(String format, Object arg0)
+   在 System.IO.TextWriter.SyncTextWriter.Write(String format, Object arg0)
+   在 FacebookTest.GraphProxy.<>c__DisplayClasse.<findResult>b__d(Int64 s) 位置 e:\trinity\Graph\FacebookTest\FacebookTest\GraphProxy.cs:行号 191
+   在 System.Collections.Generic.List`1.ForEach(Action`1 action)
+   在 FacebookTest.GraphProxy.<>c__DisplayClasse.<findResult>b__c(NodeSet t) 位置 e:\trinity\Graph\FacebookTest\FacebookTest\GraphProxy.cs:行号 189
+   在 System.Collections.Generic.List`1.ForEach(Action`1 action)
+   在 FacebookTest.GraphProxy.<>c__DisplayClasse.<findResult>b__a(NodeSet_Accessor tem) 位置 e:\trinity\Graph\FacebookTest\FacebookTest\GraphProxy.cs:行号 186
+   在 Trinity.NodeSetList.ForEach(Action`1 action) 位置 e:\VS2013project\TrinityFacebook\TrinityFacebook\bin\Debug\GeneratedCode\Structs.cs:行号 185
+   在 FacebookTest.GraphProxy.findResult(Int32 n, Int32 m, HashSet`1 leafSetS) 位置 e:\trinity\Graph\FacebookTest\FacebookTest\GraphProxy.cs:行号 163
+   在 FacebookTest.GraphProxy.<>c__DisplayClass6.<ReportHandler>b__2(NodeSet_Accessor tmp) 位置 e:\trinity\Graph\FacebookTest\FacebookTest\GraphProxy.cs:行号 144
+   在 Trinity.NodeSetList.ForEach(Action`1 action) 位置 e:\VS2013project\TrinityFacebook\TrinityFacebook\bin\Debug\GeneratedCode\Structs.cs:行号 185
+   在 FacebookTest.GraphProxy.ReportHandler() 位置 e:\trinity\Graph\FacebookTest\FacebookTest\GraphProxy.cs:行号 125
+   在 FacebookTest.GraphProxy.BeginProxyHandler(BeginSignalReader bsr) 位置 e:\trinity\Graph\FacebookTest\FacebookTest\GraphProxy.cs:行号 85
+   在 Trinity.GraphProxyBase._BeginProxyHandler(AsynReqArgs args) 位置 e:\VS2013project\TrinityFacebook\TrinityFacebook\bin\Debug\GeneratedCode\Protocol.cs:行号 156
+   在 Trinity.Network.Messaging.AsynReqArgs.MessageProcessThread(Object msg_obj)
+[2015/4/9 16:20:01] [ ERROR   ] Message buffer length: 10
+[2015/4/9 16:20:01] [ ERROR   ] Hexadecimal dump of the message buffer (first 128 bytes):
+[2015/4/9 16:20:01] [ INFO    ] Error
+[2015/4/9 16:20:01] [ INFO    ] 
+
+Address   00 01 02 03 04 05 06 07   08 09 0a 0b 0c 0d 0e 0f
+
+00000000  02 01 01 00 00 00 00 00   00 00 
+
+
+[2015/4/9 16:20:01] [ INFO    ] Error

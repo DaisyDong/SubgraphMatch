@@ -17,9 +17,9 @@ namespace FacebookTest
         public SameLabel sl = new SameLabel();
         public int slave_count = Global.SlaveCount;
         public ResultReader[][] rr = new ResultReader[2][];
-        public HashSet<long> leafSet = new HashSet<long>(); //保存每个匹配结果中的叶子节点 
-        public List<NodeSet> result = new List<NodeSet>();
+        //public HashSet<long> leafSet = new HashSet<long>(); //保存每个匹配结果中的叶子节点  
         public int STwigNum = 2;    //分好的STwig的个数
+        public int resultNum = 0;   //用于记录找到的匹配子图的个数，因为一般情况下我们不需要所有的也看不完，所以这里我们设定超过1024就不找了
 
         public override void BeginProxyHandler(BeginSignalReader bsr)
         {
@@ -54,7 +54,7 @@ namespace FacebookTest
 
                     rr[q][i].samelabel.ForEach((tmp) =>
                     {
-                        Console.WriteLine("{0}", tmp.headid);
+                        //Console.WriteLine(tmp.headid);
                         sl.set.Add(tmp);
                     });
                     Console.WriteLine("Done!!");
@@ -62,10 +62,10 @@ namespace FacebookTest
                     Console.WriteLine();
 
 
-                    //    rr[i].set.ForEach((tmp1) =>
+                    //  rr[q][i].set.ForEach((tmp1) =>
                     //{
-                    //    Console.WriteLine(tmp1.headid);
-                    //    tmp1.set.ForEach((tmp2) =>
+                    //   Console.WriteLine(tmp1.headid);
+                    //   tmp1.set.ForEach((tmp2) =>
                     //    {
                     //        Console.Write("{0} ", tmp2);
                     //    }
@@ -116,52 +116,101 @@ namespace FacebookTest
           }*/
         //处理每个slave的结果,rr[i][j] 表示第i个STwig在第j个机器中的结果
         public void ReportHandler()
-        {
+        { 
+            
             for (int j = 0; j < Global.SlaveCount; j++)
             {  
-                int n = 1;
-                rr[0][j].samelabel.ForEach((tmp) =>
+                int n = 0;
+                //int count = 0;
+                rr[n][j].set.ForEach((tmp) =>
                     {
-                        tmp.set.ForEach((num) =>
+                        if (j == 1) return; 
+                        //Console.WriteLine(tmp.headid);
+                        HashSet<long> leafSet = new HashSet<long>(); //保存每个匹配结果中的叶子节点 
+                        List<NodeSet> result = new List<NodeSet>();
+                        tmp.set.ForEach((son) =>
                             { 
-                                leafSet.Add(num);
+                                leafSet.Add(son);       //形成每个stwig连接后留下来的叶子节点用来寻找下一个stwig
+                             
                             });
-                        if (n == STwigNum)
+                        result.Add(tmp);
+                        //Console.WriteLine();
+                        if (n + 1 == STwigNum)  //已经连接到了所有stwig匹配的点，即表示构成了匹配的子图
                         {
-                            Console.WriteLine("match subGraph is:");
-                            Console.WriteLine("{0}:{1}", tmp.headid, tmp.set);
+                            Console.Write("{0}: ", tmp.headid);
+                            tmp.set.ForEach((s) =>
+                            {
+                                Console.Write("{0} ", s);
+                            }
+                            );
+                            Console.WriteLine();
+                            if (++resultNum > 1024) return;
                         }
-                        else findResult(n,j); 
+                        else
+                        {
+                            findResult(n + 1, j, leafSet, result);
+                            leafSet = null; 
+                        }
                         //  Console.WriteLine("{0}", tmp.headid);
                         //result.Add(tmp);
                          
                     });
             }
         }
-    public void findResult(int n,int m){
-        HashSet<long> leafSetS = leafSet;
-        rr[n][m].samelabel.ForEach((tem) =>
+        public void findResult(int n, int m, HashSet<long> leafSetS,List<NodeSet> result)
+        {
+        //Console.WriteLine("findResult:{0} ge STwig,{1} ge Slave",n,m);
+        HashSet<long> temp = leafSetS;
+        NodeSet note = new NodeSet();
+        if (n >= STwigNum || resultNum > 1024)
+        {
+            //Console.WriteLine("{0},{1}", n, STwigNum);
+            return;
+        } 
+        rr[n][m].set.ForEach((tem) =>
             {
+                Boolean flag = false;
+                //Console.WriteLine("headid:{0}", tem.headid);
                 if (leafSetS.Contains(tem.headid))
-                { 
+                {
+                    //Console.WriteLine("you pi pei de jie dian {0}", tem.headid);
                     tem.set.ForEach((num) =>
-                        { 
-                            if(num != tem.headid)
-                                leafSet.Add(num);
+                        {
+                            if (num != tem.headid)
+                            {  //每次加新的子结构都继续添加多出来的儿子节点，同时
+                                leafSetS.Add(num);
+                                HashSet<long> find = new HashSet<long>();
+                                find.Add(tem.headid);
+                                leafSetS.ExceptWith(find);
+                            }//将新结构的父节点从儿子节点表中去除防止重复选择
                         });
                     result.Add(tem);
-                    if (++n == STwigNum)
+                    note = tem;
+                    flag = true;    //i所对应的子结构已经在集合中加入过，下次再找同构的子结构时就要将之前的结果去除
+                    if (n + 1 == STwigNum)
                     {
                         Console.WriteLine("match subgraph is:");
-                        result.ForEach((tmp) =>
+                        result.ForEach((t) =>
                             {
-                                Console.WriteLine("{0}:{1}", tmp.headid, tmp.set);
+                                Console.Write("{0}: ", t.headid);
+                                t.set.ForEach((s) =>
+                                    {
+                                        Console.Write("{0} ", s);
+                                    }
+                                );
+                                Console.WriteLine();
                             });
+                        if (++resultNum > 1024) return;
+                        leafSetS = temp;    //因为别的结构也可能有链接，所以恢复叶子节点集合
+                        result.Remove(note);  //输出结果就将结果删除S
                     }
-                    else
-                        findResult(n, m);
+                    else //再去找下一个STWig
+                    {
+                        Console.WriteLine("findResult:{0}ge STwig,{1} ge Slave", n, m);
+                        findResult(n + 1, m, leafSetS,result);
+                    }
                 }
-            });
+            });                         
         return;
     }
     }       
